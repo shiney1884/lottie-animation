@@ -1,11 +1,8 @@
 import Button from './Button'
-import BurgerNav from './BurgerNav';
 import Navigation from './Navigation';
 import InfoElement from './InfoElement';
-import {fa7, faDesktop, faBookOpenReader, faLaptop, faFaceSmile} from '@fortawesome/free-solid-svg-icons'
+import {fa7, faLaptop, faFaceSmile} from '@fortawesome/free-solid-svg-icons'
 import Lottie from 'lottie-react';
-import animationData from "./assets/exercise-1.json"
-import animationData1 from "./assets/animation-2.json"
 import svg from "./assets/big.json"
 
 
@@ -20,7 +17,6 @@ function App() {
           < Button/>
         </div>
         <div className='flex mt-6 lg:mt-0'>
-          {/* <Lottie style={{width:500}} animationData={animationData1}/> */}
           <Lottie style={{width:500}} animationData={svg}/>
         </div>
       </div>
